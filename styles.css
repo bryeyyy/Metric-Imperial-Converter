@@ -95,7 +95,7 @@ input[type=number] {
 .row2{
     width: 100%;
     margin: 0 0 0 0 !important;
-    padding: 45px;
+    padding: 35px;
 }
 .col-12{
     background-color: rgb(255, 255, 255);
@@ -118,6 +118,9 @@ input[type=number] {
 }
 .convarea{
     width: 100%;
+}
+.plug{
+    font-size: 11px;
 }
 
 @media (max-width: 480px) {
