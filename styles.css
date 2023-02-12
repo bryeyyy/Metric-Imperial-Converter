@@ -100,8 +100,8 @@ input[type=number] {
 .col-12{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    margin: 10px;
     min-height: 100px;
+    margin-bottom: 10px;
     align-items: center;
     justify-content: center ;
     padding: 20px;
