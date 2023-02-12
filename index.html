@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="box container">
+            <div class="row row1">
+                <h4>Metric to Imperial Unit Conversion</h4>
+                <input type="number" id="numberinput" value="20">
+                <div class="btnarea">
+                    <button id="convertbtn" onclick="convert()"> Convert </button>
+                </div>
+            </div>
+            <div class="row row2 px-5">
+                <div class="col-12">
+                    <h5>Length (Meters and Feet)</h5>
+                    <p><span class="given">0</span> meters = <span id="feet">0</span> feet | <span class="given">0</span> feet = <span id="meters">0</span> meters</p>
+                </div>
+                <div class="col-12">
+                    <h5>Volume (Liters and Gallons)</h5>
+                    <p><span class="given">0</span> liters = <span id="gallons">0</span> gallons | <span class="given">0</span> gallons = <span id="liters">0</span> liters</p>
+                </div>
+                <div class="col-12">
+                    <h5>Mass (Kilograms and Pounds)</h5>
+                    <p><span class="given">0</span> kilos = <span id="pounds">0</span> pounds | <span class="given">0</span> pounds = <span id="kilo">0</span> kilos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

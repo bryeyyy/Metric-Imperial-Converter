@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    font-family: Inter;
+}
+.container-fluid{
+    background: linear-gradient(213deg, #000000, #393876);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+
+.box{
+    height: 720px;
+    width: 550px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 0 0 0 0 !important;
+}
+.row1{
+    background-color: #6943FF;
+    width: 100%;
+    margin: 0 0 0 0 !important;
+    display: flex;
+    justify-content: center;
+}
+.row1 > h4{
+    color: white;
+    margin:  30px 50px 30px 50px;
+    font-weight: bold;
+}
+#numberinput{
+    background-color: #6943FF !important;
+    width: 120px;
+    height: 80px;
+    align-self: center;
+    text-align: center;
+    border: solid white 1px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin:  0px 50px 30px 50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.btnarea{
+    margin:  0px 50px 30px 50px;
+}
+
+#convertbtn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 15px !important;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: ease 0.1s;
+}
+#convertbtn:active{
+    scale: 0.95;
+}
+.row2{
+    width: 100%;
+    margin: 0 0 0 0 !important;
+    padding: 45px;
+}
+.col-12{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center ;
+    padding: 20px;
+}
+.col-12 > h5 {
+    font-weight: bold;
+    color: #5A537B;
+    width: 100%;
+    margin: 0 0 10px 0 !important;
+}
+.col-12 > p {
+    font-size: 15px;
+    margin: 0 0 0 0 !important;
+}
+.convarea{
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .box{
+        height: max-content;
+    }
+}
